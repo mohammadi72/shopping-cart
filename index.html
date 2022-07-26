@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>shopping-cart</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="menu-icon">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+                <!-- add humberger menu -->
+                <!-- <ul class="menu__box">
+                    <li><a class="menu__item" href="#">Home</a></li>
+                    <li><a class="menu__item" href="#">About</a></li>
+                    <li><a class="menu__item" href="#">Team</a></li>
+                    <li><a class="menu__item" href="#">Contact</a></li>
+                    <li><a class="menu__item" href="#">Twitter</a></li>
+                </ul> -->
+
+
+            </span>
+            <p class="navbar-title">zahra shopping</p>
+            <span class="cart-btn">
+                <i class="fa-solid fa-cart-plus"></i>
+                <span class="cart-items">0</span>
+            </span>
+        </div>
+    </nav>
+
+    <!-- products -->
+    <section>
+        <div class="products">
+            <h2 class="section-title">product</h2>
+            <!-- single products -->
+            <div class="products-center">
+
+            </div>
+        </div>
+    </section>
+    <!-- cart Center -->
+    <section class="cart-center">
+        <div class="backdrop"></div>
+        <div class="cart">
+            <h3 class="cart-title">your cart</h3>
+            <div class="cart-content">
+            </div>
+            <div class="cart-footer">
+                <span class="cart-total">your total prices: 0 $</span>
+                <button class="btn clear-cart">clear cart</button>
+                <button class="btn cart-item-confirm">confirm</button>
+            </div>
+        </div>
+
+    </section>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
